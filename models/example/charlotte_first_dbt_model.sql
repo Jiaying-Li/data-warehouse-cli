@@ -14,7 +14,7 @@ with source_data as (
 select *
 from ticketing.events
 where event_name ilike '%celine%'
-limit 10
+limit 100
 
 )
 
